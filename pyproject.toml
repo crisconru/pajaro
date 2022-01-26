@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pajaro"
+version = "0.1.0"
+description = ""
+authors = ["Cristóbal Contreras Rubio <crisconru@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pynput = "^1.7.6"
+typer = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
